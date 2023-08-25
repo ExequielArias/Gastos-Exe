@@ -22,7 +22,7 @@ namespace Gastos_Exe
         {
             StreamReader SR = new StreamReader("Ejemplos Conceptos.txt");
             string linea = "";
-            while (SR.EndOfStream == false)
+            while (SR.EndOfStream == false) 
             {
                 linea = SR.ReadLine();
                 cboConcepto.Items.Add(linea);
